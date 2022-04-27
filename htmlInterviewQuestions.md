@@ -59,3 +59,45 @@
         document.getElementById("inputField").attr("type","password");
     ```  
 * You may see attributes without the equals sign or a value.  That is a shorthand for providing the empty string in HTML, or the attribute's name in XML. 
+  
+## Describe and explain HTML layout structure, and name the most important HTML5 structure elements.
+* HTML layout structure specifies the way in which a web page is arranged.
+* Every website has a specific layout and structure, and displays content in a specific manner. 
+* However, there are a few things which may be considered as standard practice on how to structure a web page.
+* HTML5 structure elements are used for HTML layout structure.
+* The most important HTML5 structure elements are:
+  
+    ```html
+        <header></header>: 
+    ```
+* The header html element defines the head section of the document or more simply put, the top of the page. Then it is no surprise that a header section always sticks at the top of the document. It is used to define a header for a document or a section.
+
+    ```html
+        <nav></nav>: 
+    ```
+* The nav html element represents a section of a page which provides navigation links to other sections within the current document or to other documents. It is used to define a container for navigation links.  Examples of navigation sections are: menus, tables of contents, and indexes.
+
+    ```html
+        <main></main>: 
+    ```
+* The main html element defines the main section in the document and contains the main content of the document.  It defines the primary section in the document related to the central content of a document.
+
+    ```html
+        <section></section>: 
+    ```  
+* The section html element defines a generic standalone section in the document, such as a header, footer or in other sections of the document. It is used to define the structure of the document.  This particular section of the document doesn’t have a more specific semantic element to represent it.  And a section should always have a heading.
+
+    ```html
+        <article></article>: 
+    ``` 
+* The article html element represents an independent or self-contained part of the content of a document.  It is intended to be independently distributable or reusable. Examples are: a forum post, a magazine or newspaper article, or an interactive widget.
+
+    ```html
+        <aside></aside>: 
+    ```
+* The aside html element defines some content aside from the content it is placed in, and it contains secondary content.  It represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
+
+    ```html
+        <footer></footer> 
+    ```
+* The footer html element defines the footer section of the document. It contains information such as copyright or the author’s information, or navigational elements pertaining to the contents of the parent element, or links to related documents.  A footer section always sticks at the bottom of the document.
