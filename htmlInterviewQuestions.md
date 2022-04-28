@@ -64,7 +64,7 @@
 * HTML layout structure specifies the way in which a web page is arranged.
 * Every website has a specific layout and structure, and displays content in a specific manner. 
 * However, there are a few things which may be considered as standard practice on how to structure a web page.
-* HTML5 structure elements are used for HTML layout structure.
+* HTML5 structure elements are used for HTML layout structure. The most important elements are the header, nav, main, section, article, aside and footer.
 * The most important HTML5 structure elements are:
   
     ```html
@@ -101,3 +101,53 @@
         <footer></footer> 
     ```
 * The footer html element defines the footer section of the document. It contains information such as copyright or the author’s information, or navigational elements pertaining to the contents of the parent element, or links to related documents.  A footer section always sticks at the bottom of the document.
+
+## Explain list elements in HTML.
+
+* HTML lists are used to group a set of related items (one or more elements) in lists.  There are many common lists which are used to design a page, and you can use any one of them suited to your specific use case.
+
+* The three common HTML list elements are:
+    ```html
+        <!-- (ordered lists) -->
+        <ol>
+            <li>...</li>
+            <li>...</li>
+            <li>...</li>
+        </ol>
+        <!-- (unordered lists) -->
+        <ul>
+            <li>...</li>
+            <li>...</li>
+            <li>...</li>
+        </ul>
+        <!-- (definition lists) -->
+        <dl>
+    ```
+  
+* An HTML list starts with an opening tag of the specified list element, followed by the list items, each of which is enclosed in an li opening and closing tag, followed by a closing tag of the list element.  Example:
+    ```html
+    <ol>
+        <li>Open twitter app</li>
+        <li>Read tweets</li>
+        <li>Close twitter app</li>
+    </ol>
+    ```
+
+    
+* An Ordered List 
+  ```html
+    <ol></o>
+  ```
+    lists group related items in an ordered way, i.e. numbered or alphabetically.  It means it is ordered in a specific order.
+
+* An Unordered List
+  ```html
+    <ul></ul>
+  ```
+  lists the group related items in an unordered way, i.e. in bulleted format or in any other format. It means it is ordered in no particular order.
+
+* A Definition List
+  ```html
+    <dl></dl>
+  ```
+  arrange terms in the way in which they are arranged in a dictionary.  It means it is used to group terms and descriptions.
