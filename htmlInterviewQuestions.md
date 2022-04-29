@@ -151,3 +151,17 @@
     <dl></dl>
   ```
   arrange terms in the way in which they are arranged in a dictionary.  It means it is used to group terms and descriptions.
+
+## What is the role of DOCTYPE in HTML?
+* All HTML pages (HTML5 included) need to have their document type declared in the first line of code.  It is a special tag in HTML which is always written at the top of the HTML document, i.e. at the start of the HTML template. To do this use the following DOCTYPE declaration: 
+    ```html
+    <!DOCTYPE html>
+    ```
+*  The 
+    ```html
+    <!DOCTYPE html>
+    ```
+    declaration is not an HTML tag. 
+
+* It instructs the browser how to interpret the document by indicating what type and version of markup language is used. The browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly if the <!DOCTYPE html> declaration is not used.
+
